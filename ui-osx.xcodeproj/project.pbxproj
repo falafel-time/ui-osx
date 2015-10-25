@@ -10,6 +10,8 @@
 		0D16051C1BDD59960085391A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16051B1BDD59960085391A /* AppDelegate.swift */; };
 		0D16051E1BDD59960085391A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D16051D1BDD59960085391A /* Assets.xcassets */; };
 		0D1605211BDD59960085391A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D16051F1BDD59960085391A /* MainMenu.xib */; };
+		0D1605321BDD5B230085391A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1605301BDD5B230085391A /* MainViewController.swift */; };
+		0D1605331BDD5B230085391A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1605311BDD5B230085391A /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		0D16051D1BDD59960085391A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D1605201BDD59960085391A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0D1605221BDD59960085391A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D1605301BDD5B230085391A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0D1605311BDD5B230085391A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		0D16051A1BDD59960085391A /* ui-osx */ = {
 			isa = PBXGroup;
 			children = (
+				0D1605301BDD5B230085391A /* MainViewController.swift */,
+				0D1605311BDD5B230085391A /* MainViewController.xib */,
 				0D16051B1BDD59960085391A /* AppDelegate.swift */,
 				0D16051D1BDD59960085391A /* Assets.xcassets */,
 				0D16051F1BDD59960085391A /* MainMenu.xib */,
@@ -117,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D16051E1BDD59960085391A /* Assets.xcassets in Resources */,
+				0D1605331BDD5B230085391A /* MainViewController.xib in Resources */,
 				0D1605211BDD59960085391A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D16051C1BDD59960085391A /* AppDelegate.swift in Sources */,
+				0D1605321BDD5B230085391A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +277,7 @@
 				0D1605271BDD59960085391A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
