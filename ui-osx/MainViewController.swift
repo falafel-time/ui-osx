@@ -10,9 +10,14 @@ import Cocoa
 
 class MainViewController: NSViewController {
 
+    @IBOutlet var outLabel: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
     }
     
+    @IBAction func sendHello(sender: AnyObject) {
+        outLabel.stringValue = "Hello World"
+    }
 }
